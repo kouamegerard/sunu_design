@@ -1,0 +1,330 @@
+section.wrapper-detail_profil {
+	width: 100%;
+	height: auto;
+	padding: 16px;
+	background-color: #f2f6ff;
+}
+
+.wrappper-banner {
+	width: 1024px;
+	height: 384px;
+	margin: 25px auto;
+	/*background-color: #fff;*/
+}
+
+.banner-profil_image {
+	width: 100%;
+	height: 160px;
+	background-image: url("../imgs/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 8px;
+}
+
+.banner-profil_describe {
+	width: 100%;
+	height: calc(100% - 160px);
+	background-color: #fff;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.top_describe {
+	display: flex;
+	position: relative;
+}
+
+.profil_logo {
+	width: 140px;
+	height: 150px;
+	position: absolute;
+	top: -76px;
+	left: 50px;
+	border-radius: 8px;
+	box-shadow: 1px 1px 2px 1px #ccc;
+	background-color: #fff;
+}
+
+.profil__logo {
+	width: 100%;
+	height: 100%;
+}
+
+.describe_entreprise {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left_describe {
+	margin: 8px 0 8px 210px;
+	width: 50%;
+}
+
+.title_left_describe {
+	color: #0096d1;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.describe_second {
+	color: #0096d1;
+	font-size: 13px;
+	font-weight: 200;
+}
+
+.describe_edit {
+	margin-top: 10px;
+	font-size: 13px; 
+}
+
+.edit_profil {
+	margin-right: 22px;
+}
+
+.right_describe{
+	width: 30%;
+	margin-top: 10px;
+}
+
+.right_describe label {
+	font-size: 13px;
+	color: #ccc;
+}
+
+.describe_button {
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: space-between;
+	padding: 16px 32px;
+}
+
+.go_to_site {
+	padding: 8px 32px;
+    background: #0096d1;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.go_contact {
+	margin-right: 22px;
+    padding: 8px 32px;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 50px;
+    border: 2px solid #0096d1;
+    text-transform: uppercase;
+}
+
+.go_contact:last-child {
+	border: 2px solid #ccc;
+}
+
+.banner_lists_items {
+	display: flex;
+	margin-top: 12px;
+}
+
+.banner_list_item {
+	margin: 0 8px;
+    padding: 8px 16px;
+    width: 16%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.banner_list_item:first-child,
+.banner_list_item:active {
+	color: #0096d1;
+	font-weight: 600;
+}
+
+.wrapper-info_content {
+	display: flex;
+}
+
+.wrapper-info_content,
+.info_juridique {
+	width: 1024px;
+	height: auto;
+	margin: 25px auto;
+	/*background-color: #fff;*/
+}
+
+.info_contact_left {
+	width: 620px;
+	height: auto;
+}
+
+.contact_info {
+	width: 100%;
+	height: 252px;
+	background-color: #fff;
+	margin-bottom: 16px;
+	padding: 16px 0;
+	border-radius: 5px;
+}
+
+h3.contact_title {
+	text-transform: uppercase;
+	color: #0096d1;
+	font-size: 18px;
+	font-weight: 600;
+	border-bottom: 1px solid #ccc;
+	padding: 0 16px 8px 16px;
+}
+
+ul.contact_lists,
+.contact_info p {
+	padding: 0 16px 0 32px;
+	margin-top: 22px;
+}
+
+ul.contact_lists li.contact_list {
+	line-height: 2.5;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+ul.contact_lists li.contact_list:nth-child(3),
+ul.contact_lists li.contact_list:nth-child(4),
+ul.contact_lists li.contact_list:nth-child(5) {
+	color: #0096d1;
+}
+
+.info_present {
+	height: auto;
+}
+
+.info_present p {
+	font-size: 13px;
+	line-height: 1.8;
+	color: #9c9a9a;
+}
+
+
+.info_contact_right {
+	width: calc(100% - 620px);
+	height: auto;
+	margin-left: 8px;
+}
+
+.info_map {
+	width: 100%;
+	height: 292px;
+	background-color: #fff;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.maps_v {
+	width: 100%;
+	height: 100%;
+}
+
+.info_avis,
+.info_horaire {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	margin-top: 8px;
+	padding: 16px 0;
+	border-radius: 5px;
+}
+
+.info_avis_lists {
+	padding: 0 16px 0 16px;
+    margin-top: 22px;
+    width: 100%;
+}
+
+li.info_avis_list {
+	width: 100%;
+}
+
+ul.info_avis_items {
+	display: flex;
+	justify-content: space-between;
+	line-height: 2;
+}
+
+.info_avis_item {
+	font-size: 13px;
+	color: #9c9a9a;
+}
+
+
+/*=======================  info  juridique css  ==============================*/
+.info_juridique {
+	height: auto;
+	background-color: #fff;
+	margin-bottom: 16px;
+	padding: 16px 0;
+	border-radius: 5px;
+}
+
+.on_enterprise {
+	text-align: center;
+	color: #9c9a9a;
+	margin: 22px 0;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.table_enterprise {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.table_enterprise_left {
+	width: 50%;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.table_lists_items, 
+.table_lists_item,
+.table_list_item {
+	width: 100%;
+}
+
+.table_list_item {
+	display: flex;
+	justify-content: space-between;
+	padding: 12px 12px 12px 12px;
+	border-bottom: 1px solid #ccc;
+}
+
+.table_list_item:last-child{
+	border-bottom: none;
+}
+
+.table_list_v {
+	font-size: 13px;
+}
+
+.table_list_v:last-child {
+	text-align: left;
+	width: 50%;
+}
+
+
+/*====================  Table Right  ===============================*/
+.table_enterprise_right {
+	width: 50%;
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
+
