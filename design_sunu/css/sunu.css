@@ -1,0 +1,609 @@
+*, *::after, *::before, 
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lato", sans-serif;
+}
+
+/*======================= General  ====================================*/
+a {text-decoration: none; cursor: pointer;}
+ul {list-style: none;}
+
+/* ======================= Header ============================= */
+
+header.menu-header{
+	width: 100%;
+	height: 110px;
+}
+
+/* Top Header */
+
+nav.menu-top {
+	height: 30px;
+	width: 100%;
+	padding: 5px 62px;
+	background: #0096d1;
+}
+
+ul.menu-top_lists {
+	display: inline-flex;
+}
+
+ul.menu-top_lists li.menu-top_item {
+	font-size: 13px;
+	color: #fff;
+	margin: 0 5px;
+	border-right: 1px solid #fff;
+	padding-right: 10px;
+}
+
+ul.menu-top_lists li.menu-top_item:last-child {
+	border: none;
+}
+
+/* Header Nav Bar Menu */
+nav.menu-nav_bar {
+	width: 100%;
+	height: calc(110px - 30px);
+	display: inline-flex;
+	padding: 5px 62px;
+    box-shadow: 2px 2px 2px #ccc;	
+}
+
+/* ===================== Left side ===================== */
+.left-menu_nav_bar {
+	width: 20%;
+	display: inline-flex;
+}
+
+.logo-menu {width: 100px;height: 70px;}
+
+.left-menu_nav_bar a {
+	margin: 28px 0 0 25px;
+	font-size: 15px;
+}
+
+.search_menu {
+	width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form_menu {
+	/*padding: 0.5em 0.6em;*/
+    display: inline-block;
+    /*border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;*/
+    border-radius: 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 90%;
+    position: relative;
+}
+
+.form_menu .form_menu-input_rounded:focus {
+	outline: 0;
+	border-color: #ccc;
+}
+
+.form_menu .form_menu-input_rounded::placeholder {
+	color: #ccc;
+	opacity: 0.7;
+}
+
+.form_menu-input_rounded {
+	border-radius: 2em;
+    padding: 0.8em 1em;
+    border: 1px solid #ccc;
+    width: 80%;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.menu-btn_seacrh {
+	border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 10.3%;
+
+}
+/*========================== Right Side =========================*/
+
+.right-menu_nav_bar {
+	width: 40%;
+    text-align: right;
+}
+
+ul.right-menu_lists {
+	display: inline-flex;
+    height: 100%;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.right-menu_item {
+	margin: 0 15px;
+}
+
+a.btn-item {
+	padding: 10px 32px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+li.right-menu_item:last-child a.btn-item {
+	padding: 10px 32px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background: #85c50f;
+}
+
+/*======================  Banner  ==================================*/
+
+.banner_register {
+	width: 100%;
+	height: 95px;
+	background: #85c50f;
+	position: relative;
+}
+
+/*=====================  Register forms  ================================ */
+.register_company {
+	width: 100%;
+	height: 100%;
+	padding: 16px 32px;
+	background: #f2f6ff;	
+}
+
+.register-title {
+	text-transform: uppercase;
+	color: #0096d1;
+}
+
+.title_underline {
+	display: inline-flex;
+	width: 30%;
+	margin-bottom: 42px;
+}
+
+.underline {
+	width: 40%;
+	height: 4px;
+	background: #85c50f;
+	border-radius: 60px;
+}
+
+.underline:last-child {
+	width: 10%;
+	margin-left: 5px;
+}
+
+/*========================  Form Section  ===============================*/
+.form_section {
+	width: 80%;
+	height: auto;
+	margin: 10px auto;
+	background: #fff;
+	padding: 16px 22px;
+}
+
+.code_forms {
+	width: 100%;
+}
+
+.text-code_forms {
+	display: inline-flex;
+    width: 100%;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.group_title {
+	text-transform: uppercase;
+	font-weight: 200;
+	color: #8ebe3d;
+	font-size: 14px;
+	width: 98%;
+}
+
+span.text-excla {
+	text-align: right;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    padding: 2px 8px 0 8px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    color: #fff;
+}
+
+
+/* ===================  Form Input code  ============================= */
+.form_input-code {
+	width: 100%;
+	display: inline-flex;
+	margin: 25px 0 25px 0;
+}
+
+.form_menu-input_rounded.code_access {
+	width: 100%;
+	margin: 0 0 16px 0;
+}
+
+.form_groups {
+	width: 40%;
+}
+
+.form_menu.form_access {
+	width: 100%;
+}
+
+.form_input-describe {width: 60%;text-align: right;}
+
+.describe_info {
+	width: 40%;
+	margin: 5px auto;
+	font-size: 14px;
+	color: #ccc;
+}
+
+.form_menu.form_access.form_access-right {
+	width: 70%;
+	margin: 0px 20px 0 auto;
+}
+
+.form_menu-input_rounded.code_access.selected_input {
+	padding-right: 16px;
+	color: #ccc;
+}
+
+
+/* ====================  Forms Save ================================ */
+.form-save_btns {
+	width: 100%;
+	padding: 62px 16px;
+	text-align: right;
+}
+
+.form_item {
+	margin: 0 16px;
+	background: #85c50f;
+    padding: 16px 32px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.form_item:first-child {
+	background: transparent;
+	border: 1px solid #ccc;
+	color: #ccc;
+}
+
+.form_item:first-child:hover {
+	background: #f50202;
+	border: none;
+	color: #fff;
+}
+
+.form-save {
+	display: inline-flex;
+	width: 100%;
+	align-items: end;
+	justify-content: end;
+	text-align: right;
+
+}
+
+
+/*==================================  Secteur activitty  ===============================*/
+
+.secteur_search {
+	position: absolute;
+    width: 960px;
+    height: 60px;
+    /* margin: 0 auto; */
+    padding: 0px 0 0px 16px;
+    background: #fff;
+    bottom: -27%;
+    left: 18%;
+    border-radius: 50px;
+}
+
+.form-service_search {
+	
+}
+
+.form-input_service {
+	width: 275px;
+	height: 40px;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-right: 1px solid #ccc;
+	text-align: center;
+	color: #0096d1;
+}
+
+.form-input_service::placeholder {
+	color: #0096d1;
+}
+
+.form-input_service:nth-child(3) {
+	border-right: none;
+}
+
+.form-input_service:focus {
+	outline: 0;
+	border-bottom: 2px solid #ccc;
+}
+
+button.btn-form_search_service {
+	width: 105.3px;
+	height: 60px;
+	border: none;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: #0096d1;
+}
+
+/*=======================  List Service  ===============================*/
+
+.secteur_activity {
+	padding: 80px 0;
+}
+
+.lists_services_items {
+	width: 1162px;
+	height: 190px;
+	display: flex;
+	background: #fff;
+	margin: 8px auto 8px auto;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+img.service_item_img{
+	width: 139px;
+	height: 153px;
+	border-radius: 8px;
+}
+
+.service-describe_item {
+	padding: 5px 22px;
+	width: calc(100% - 139px);
+	height: auto;
+}
+
+.item-describe_perso {
+	display: flex;
+}
+
+.left_item_perso {
+	width: 50%;
+}
+
+.title-item_service {
+	color: #0096d1;
+	margin-bottom: 10px;
+}
+
+.item_service_lists li {
+	font-size: 14px;
+	font-weight: 600;
+	color: #111;
+	margin-top: 8px;
+}
+
+.categories_item {
+	font-size: 12px;
+	margin-top: 8px
+}
+
+.categories_item i {font-weight: bold;color: #111;}
+
+.right_item_perso {
+	width: 50%;
+	text-align: right;
+}
+
+.right_item_perso span.start_item{
+	margin-left: 32px;
+}
+
+.item-text_perso {
+	display: flex;
+	padding: 12px 0 0 0;
+}
+
+.item_info_any {
+	width: 50%;
+}
+
+.right_button {
+	width: 50%;
+    padding-top: 42px;
+    text-align: right;
+}
+
+.button_contact_email {
+	padding: 8px 42px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.button_contact_email:hover {
+    background: #0196d1;
+    color: #fff;
+    border: none;
+}
+
+/*=========================== Modal Pp UP Email ========================*/
+.modal_pop_up{
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%) scale(0);
+  	transition: 200ms ease-in-out;
+  	border: none;
+  	border-radius: 10px;
+  	z-index: 10;
+  	background-color: white;
+  	width: 530px;
+  	height: 540px;
+  	max-width: 80%;
+  	padding-left: 16px;
+}
+
+.modal_pop_up.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.header_modal {
+  padding: 10px 15px 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.header_modal .modal_title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header_modal .close_modal {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal_body {
+  padding: 10px 15px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.form_menu.form_access.modal-forms {width: 100%;}
+
+.form_groups.forms_modal_pop-up {
+	width: 100%;
+}
+
+.form_groups.forms_modal_pop-up input.code_access {
+	background: #eceff4;
+	width: 80%;
+}
+
+.label_text {
+	font-size: 13px;
+	color: #ccc;
+}
+
+.message_text_here {
+	width: 80%;
+    height: 85px;
+    border-radius: 8px;
+    padding: 8px;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+
+.message_text_here::placeholder {
+	color: #ccc;
+}
+
+.message_text_here:focus {
+	border: none;
+	outline: 0;
+    border: 1px solid #ccc;
+}
+
+.message_input_box {margin-top: 32px;}
+
+input.checkbox_modal {border-color: #ccc;}
+
+.label_text_check {color: #121212; font-size: 13px;}
+
+.modal-form_save_btns {
+	width: 100%;
+    padding: 8px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-form_item {
+    padding: 8px 32px;
+    border-radius: 50px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.modal-form_item:hover{
+	background: #f50202;
+	border: none;
+	color: #fff;
+}
+
+.modal-form_item:nth-child(2){
+	background: #85c50f;
+    padding: 8px 32px;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+}
+
+#background_modal {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#background_modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
